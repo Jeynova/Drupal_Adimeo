@@ -1,0 +1,15 @@
+name = Jey
+description = My first Drupal 7 theme
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = style.css
+settings[garland_width] = fluid
+
+regions[header] = header
+regions[image] = image
+regions[contact] = contact
+regions[taxo] = taxo
+regions[actu] = actu
+regions[map] = map
+regions[footer] = footer

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+.header-front {
+  background-color: #074581;
+  border-bottom: 0.2rem solid red;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.short-red-separator {
+  color: red;
+}
+
+.section.clearfix {
+  font-family: Montserrat;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.section.clearfix .title-refont {
+  font-size: 2rem;
+}
+.section.clearfix .title-refont:visited {
+  text-decoration: none;
+  color: white;
+}
+.section.clearfix .block-logo {
+  display: flex;
+}
+.section.clearfix a {
+  text-decoration: none;
+}
+.section.clearfix ul.menu {
+  display: flex;
+}
+.section.clearfix ul.menu li {
+  list-style: none;
+}
+.section.clearfix ul.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.imageblock-image {
+  width: 100%;
+}
+
+.region-contact {
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat;
+  color: #3a87ad;
+}
+
+#block-views-taxos-display-block .content {
+  padding-top: 10rem;
+}
+
+#block-views-taxos-display-block.block-views h2:before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  top: 8%;
+  left: -2%;
+  border-bottom: 3px solid red;
+}
+#block-views-taxos-display-block.block-views .view-taxos-display .views-row-1 a {
+  background: url("../../../../../web/sites/default/files/office-buildings-svgrepo-com.svg") no-repeat 50%;
+  background-size: 100%;
+  padding-top: 10rem;
+}
+#block-views-taxos-display-block.block-views .view-taxos-display .views-row-2 a {
+  background: url("../../../../../web/sites/default/files/family-silhouette-svgrepo-com.svg") no-repeat 50%;
+  background-size: 100%;
+  padding-top: 10rem;
+}
+#block-views-taxos-display-block.block-views .view-taxos-display .views-row-3 a {
+  background: url("../../../../../web/sites/default/files/stock-earnings-svgrepo-com.svg") no-repeat 50%;
+  background-size: 100%;
+  padding-top: 10rem;
+}
+#block-views-taxos-display-block.block-views .view-content {
+  display: flex;
+  justify-content: space-around;
+}
+#block-views-taxos-display-block.block-views .view-content a {
+  font-family: Montserrat;
+  color: #3a87ad;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
